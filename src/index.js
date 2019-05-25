@@ -10,6 +10,7 @@ import { Provider } from "react-redux";
 import reducers from "./reducers";
 import logger from "redux-logger";
 
+// lek 555 from friend
 const dev_middlewares = [];
 if (process.env.NODE_ENV === `development`) {
   dev_middlewares.push(logger);
